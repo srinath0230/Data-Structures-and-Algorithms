@@ -1,5 +1,6 @@
 Q) What is Recursion?
 A: Recursion = a way of solving a problem by having a function calling itself 
+    recursion stores memory in stack(to recall the function) and follows LIFO(last in first out)
 
 Q) Why Recursion?
 A:  1. Recursive thinking is really important in programming and it helps you break down big
