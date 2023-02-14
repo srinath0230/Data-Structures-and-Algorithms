@@ -50,3 +50,14 @@ A:  When to use it?
   - Recursion uses more memory. If we use embedded memory. For example an application
   that takes more memory in the phone is not efficient
   - Recursion can be slow
+ 
+Python Keyword "assert" : It allows you test if a condition in your code returns True, if not, the
+program will raise an AssertionError than can be written by ourselves.
+Syntax
+assert {condition}, {message}
+Example: 
+x = 2
+assert x < 1, 'x is not less than 1'
+The output is: AssertionError: x is not less than 1
+Because the condition here (x<1) is not met, so it raises error.
+
