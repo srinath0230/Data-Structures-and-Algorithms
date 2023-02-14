@@ -1,1 +1,51 @@
+Q) What is Recursion?
+A: Recursion = a way of solving a problem by having a function calling itself 
 
+Q) Why Recursion?
+A:  1. Recursive thinking is really important in programming and it helps you break down big
+    problems into smaller ones and easier to use
+    ‣ If you can divine the problem into similar sub problems
+    ‣ Design an algorithm to compute nth…
+    ‣ Write code to list the n…
+    ‣ Implement a method to compute all.
+    ‣ Practice
+    - when to choose recursion?
+    2. The prominent usage of recursion in data structures like trees and graphs.
+    4. It is used in many algorithms (divide and conquer, greedy and dynamic programming)
+    3. Interviews
+
+
+Q) How Recursion works?
+A: 1. A method calls it self
+   2. Exit from infinite loop
+  Example:
+  def recursionMethod(parameters):
+   if exit from condition satisfied:
+   return some value
+   else:
+   recursionMethod(modified parameters)
+ 
+Q) Comparision between Recursion and iternative 
+A: 
+     Points                   Recursion             Iteration                    Reason 
+> Space efficient?               No                   Yes               No stack memory require in case of iteration
+> Time efficient?                No                   Yes               In case of recursion system needs more time for pop 
+                                                                      and push elements to stack memory which makes
+                                                                      recursion less time efficient.
+> Easy to code?                  Yes                   No               We use recursion especially in the cases we know
+                                                                      that a problem can be divided into similar sub
+                                                                      problems.
+                                                                      
+                                                                      
+Q) When to Use/Avoid Recursion?
+A:  When to use it?
+  - When we use memoization in recursion
+  - When we can easily breakdown a problem into similar subproblem
+  - When we are fine with extra overhead (both time and space) that comes with it
+  - When we need a quick working solution instead of efficient one
+  - When traverse a tree.
+  When avoid it?
+  - If time and space complexity matters for us.
+  - Recursion uses more memory. If we use embedded memory. For example an application
+  that takes more memory in the phone is not efficient
+  - Recursion can be slow
