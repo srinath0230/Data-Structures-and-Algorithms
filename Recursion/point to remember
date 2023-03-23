@@ -61,3 +61,5 @@ assert x < 1, 'x is not less than 1'
 The output is: AssertionError: x is not less than 1
 Because the condition here (x<1) is not met, so it raises error.
 
+Q) % module function myths 
+A) x%y = x means if the left side(x) is less than right side(y) then the remainder is left (x)
